@@ -1,0 +1,11 @@
+string = str(input('Digite uma string: '))
+
+print('======== DADOS DA VARIAVEL ========' )
+print('Tipo:', type(string))
+print('É Alpha?', string.isalpha())
+print('É AlphaNumerico?', string.isalnum())
+print('É numerico?', string.isnumeric())
+print('E maisculo?', string.isupper())
+print('E minusculas?', string.islower())
+print('E capitalizada?', string.istitle())
+print('So tem espaços: ', string.isspace())
